@@ -36,7 +36,7 @@ body {
     transform-style: preserve-3d;
 }
 
-.card div {
+.filler {
     width: 25vh;
     height: 25vh;
     border-radius: 15px;
@@ -44,7 +44,7 @@ body {
     transition: transform .2s ease;
 }
 
-.card div:hover, .card div:active {
+.filler:hover, .filler:active {
     transform: rotateY(180deg);
 }
 
